@@ -1,0 +1,107 @@
+.hero {
+    padding:240px 0 0; 
+    background-image: url(/img/BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero_header .text {
+    font-weight: 300;
+}
+
+.hero_header .title {
+    /* text-shadow:0 0 12px rgb(255, 255, 255); */
+    width: 1000px;
+    color: rgb(0, 0, 0);
+}
+
+.hero_header .text {
+    /* text-shadow:0 0 12px rgb(255, 255, 255) */
+    color: rgb(0, 0, 0);
+}
+
+.services_header .title {
+    width: 1000px;
+}
+
+.section_header .subtitle--extended {
+    color: rgb(0, 0, 0);
+}
+
+.hot-spot:before {
+    content:'';
+    width:30px;
+    height:30px;
+    background-color:rgba(255,198,49,.4);
+    position:absolute;
+    border-radius:50%;
+    top:-50%;left:-50%;
+    -webkit-transform:translate(50%,50%);
+    -ms-transform:translate(50%,50%);
+    transform:translate(50%,50%);
+    -webkit-animation:3s infinite pulse;
+    animation:3s infinite pulse;
+    z-index:99
+}
+
+.spots_map {
+    margin-top:30px;
+    position:relative;
+}
+
+.spots_map-map {
+    display:block;
+    -o-object-fit:cover;
+    object-fit:cover;
+    width:100%
+}
+
+.hot-spot {
+    width:15px;
+    height:15px;
+    background-color:#ffc631;
+    border-radius:50%;
+    position:absolute;
+    z-index:100;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    cursor:pointer;
+}
+
+.spots_info-text {
+    padding-top: 100px;
+}
+
+.wrapper .description {
+    font-size: 15px;
+}
+
+.section-nopb {
+    padding: 50px 0 0
+}
+
+.space {
+    margin-top: 70px;
+}
+
+.footer_main-block_subtitle {
+    max-width: 850px;
+    font-size: 15px;
+}
+
+.foot-w {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.brand_logo {
+    width:300px; 
+    /* height:38px */
+}
+
+.footer_secondary-copyright {
+    font-size: 12px;
+}

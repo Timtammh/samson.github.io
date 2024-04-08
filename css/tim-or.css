@@ -1,0 +1,293 @@
+.primary-bg {
+    background-image: url(/img/organic/or-top-jp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 50%; */
+}
+
+.primaryn-bg {
+    background-image: url(/img/organic/or-under-jp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 50%; */
+}
+
+.header.opened,.header.sticky {
+    background-color:#ffffff
+}
+
+.section_header .title {
+    color: #149b58;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.section_header .subtitle--extended {
+    color: #084b29;
+}
+
+.about .media {
+    box-shadow: 2px 2px 10px 1px rgba(141, 141, 141, 0.7);
+}
+
+.quote_header .title {
+    font-size: 21px;
+    color: #000000;
+    line-height: 1.5;
+    text-shadow: 0px 0px 5px #ffffff;
+    /* background-color: #d8d8d8; */
+}
+
+.section { 
+    padding:100px 0;
+}
+
+.media_avatar img {
+    height:100%
+}
+
+.reviews_slider-slide { 
+    background:#ffffff;
+    /* padding:30px; */
+    height:auto;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+}
+
+.reviews_slider-slide .media {
+    /* display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex; */
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    gap:20px;
+    font-family:Archivo,sans-serif;
+    width: 160px;
+}
+
+.reviews_slider-slide .main {
+    margin:30px 0;
+    -webkit-box-flex:1;
+    -ms-flex-positive:1;
+    flex-grow:1;
+}
+
+.reviews_slider-slide .media_info {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    gap:5px;
+    line-height:1;
+}
+
+.reviews_slider-slide .media_info .name {
+    font-weight:600;
+    font-size:18px;
+}
+
+@media screen and (min-width:1023.98px) {
+    /* .reviews_slider-slide{padding:60px 40px 60px 60px}html[dir=rtl] 
+    .reviews_slider-slide{padding:60px 60px 60px 40px} */
+}
+
+/* .media .col-sm-12 {
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 0.8;
+    max-height: 60px;
+} */
+
+.sponsors img{
+    display: block;
+    opacity: 0.8;
+    margin: 10px 10px;
+    float: left;
+}
+
+.sponsors {
+    padding-top: 55px;
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;
+
+}
+
+.spon {
+    padding-bottom: 40px;
+    
+}
+
+.sus-info {
+    font-size: 17px;
+    padding-top: 14px;
+    padding-bottom: 8px;
+}
+
+.reviews section {
+    text-align: center;
+    /* position: relative;
+    top: 50%;  
+    left: 50%; */
+    display: flex;
+    /* 水平置中 */
+    justify-content: center;    
+    /* 垂直置中 */
+    align-items: center;      
+    
+}
+
+/* .sponsors .susE {
+    max-width: 4%;
+}
+
+.sponsors .susF {
+    max-width: 6%;
+}
+
+.sponsors .susG {
+    max-width: 6%;
+}
+
+.sponsors .susI {
+    max-width: 5%;
+}
+ */
+
+.header_nav-list_item {
+    color: #149b58
+}
+
+.primarys-bg {
+    /* background-image: url(/img/organic/orange.jpg); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    background: url(/img/organic/orange.jpg) ; 
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    margin-top: 60px;
+}
+
+.primaryb-bg {
+    /* background-image: url(/img/organic/orange.jpg); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    background: url(/img/organic/green.jpg) ; 
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    margin-top: 60px;
+}
+
+.primaryc-bg {
+    /* background-image: url(/img/organic/orange.jpg); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    background: url(/img/organic/blue.jpg) ; 
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    margin-top: 60px;
+}
+
+.primaryd-bg {
+    /* background-image: url(/img/organic/orange.jpg); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    background: url(/img/organic/pink.jpg) ; 
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    margin-top: 60px;
+}
+
+.col-md-2 {
+    width: 18%;
+}
+
+.row2 { 
+    --bs-gutter-x:1.5rem;
+    --bs-gutter-y:0;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    margin-top:calc(-1 * var(--bs-gutter-y));
+    margin-right:calc(-.5 * var(--bs-gutter-x));
+    margin-left:calc(-.5 * var(--bs-gutter-x));
+    justify-content: center;
+}
+
+@media screen and (max-width:1018px) {
+    .col-md-2 { 
+        margin-right: -17px;
+    }
+    
+    .row2 {
+        margin: -30px 0px -30px 0px;
+    }
+
+    .primarys-bg {
+        margin: -65px 0px -35px 0px;
+    }
+}
+
+@media screen and (max-width:708px) {
+    .col-md-2 { 
+        margin-right: -17px;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin-bottom: -19px;
+    }
+    
+    .row2 {
+        margin: -30px 0px -45px -30px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .primarys-bg {
+        margin: -85px 0px -60px 0px;
+    }
+}

@@ -1,0 +1,23 @@
+.upp {
+    height: 60px;
+    background-color: white;
+    background: transparent;
+}
+
+.brand_logo {
+    width: 280px;
+    height: 53px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.footname {
+    font-size: 30px;
+}
+
+.header.default {
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-top: 12px;
+}
