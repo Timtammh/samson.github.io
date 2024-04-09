@@ -1,6 +1,6 @@
 .hero {
     padding:240px 0 0; 
-    background-image: url(samson.github.io/img/BG.jpg);
+    background-image: url(/img/BG.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
